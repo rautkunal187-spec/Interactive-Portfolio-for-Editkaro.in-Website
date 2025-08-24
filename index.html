@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in - Creative Video Editing Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Stars Background -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-play-circle"></i>
+                Editkaro.in
+            </div>
+            <nav>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#stats">Stats</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-element float-1"></div>
+        <div class="floating-element float-2"></div>
+        
+        <div class="container hero-content">
+            <h1>Transform Your <span>Vision</span> Into Motion</h1>
+            <p>Editkaro.in creates captivating visual stories that elevate brands and engage audiences across all platforms.</p>
+            <a href="#portfolio" class="btn"><span>Explore Our Work</span></a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="categories" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Creative Portfolio</h2>
+                <p>Discover our diverse range of video editing styles and techniques</p>
+            </div>
+
+            <div class="category-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="short-form">Short Form</button>
+                <button class="filter-btn" data-filter="long-form">Long Form</button>
+                <button class="filter-btn" data-filter="gaming">Gaming Videos</button>
+                <button class="filter-btn" data-filter="ads">eCommerce Ads</button>
+                <button class="filter-btn" data-filter="documentary">Documentary</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Portfolio Items -->
+                <div class="portfolio-item" data-category="short-form">
+                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Short Form Video">
+                    <div class="play-icon"><i class="fas fa-play"></i></div>
+                    <div class="portfolio-content">
+                        <h3>Social Media Reel</h3>
+                        <p>Engaging short-form content for Instagram</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="long-form">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Long Form Video">
+                    <div class="play-icon"><i class="fas fa-play"></i></div>
+                    <div class="portfolio-content">
+                        <h3>Corporate Documentary</h3>
+                        <p>30-minute feature for company anniversary</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="gaming">
+                    <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Gaming Video">
+                    <div class="play-icon"><i class="fas fa-play"></i></div>
+                    <div class="portfolio-content">
+                        <h3>Gameplay Montage</h3>
+                        <p>Action-packed compilation for streaming</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ads">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="eCommerce Ad">
+                    <div class="play-icon"><i class="fas fa-play"></i></div>
+                    <div class="portfolio-content">
+                        <h3>Product Showcase</h3>
+                        <p>Dynamic ad for fashion eCommerce brand</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="documentary">
+                    <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Documentary Style">
+                    <div class="play-icon"><i class="fas fa-play"></i></div>
+                    <div class="portfolio-content">
+                        <h3>Travel Documentary</h3>
+                        <p>Cinematic travel series episode</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="short-form">
+                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Short Form Video">
+                    <div class="play-icon"><i class="fas fa-play"></i></div>
+                    <div class="portfolio-content">
+                        <h3>SHORT VIDEO Ad Campaign</h3>
+                        <p>Series of short videos for brand promotion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About <span>Editkaro.in</span></h2>
+                    <p>Editkaro.in is a premier video editing and social media marketing agency dedicated to helping brands tell their stories through compelling visual content.</p>
+                    <p>Our team of skilled editors, animators, and marketing specialists work together to create content that not only looks great but also drives engagement and conversions.</p>
+                    <p>With expertise across various genres and platforms, we deliver tailored solutions that meet your specific needs and help you stand out in a crowded digital landscape.</p>
+                    <a href="#contact" class="btn"><span>Get in Touch</span></a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Our Studio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="250">0</div>
+                    <div class="stat-text">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="120">0</div>
+                    <div class="stat-text">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-text">Team Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-text">Success Rate (%)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about our work</p>
+            </div>
+
+            <div class="testimonial-container">
+                <div class="testimonial active">
+                    <p>"Editkaro.in transformed our social media presence with their incredible video content. Our engagement rates have doubled since we started working with them! The team is creative, professional, and always delivers on time."</p>
+                    <div class="client">Sarah Johnson</div>
+                    <div class="position">Marketing Director at TechGadgets</div>
+                </div>
+                <div class="testimonial">
+                    <p>"The gaming montages created by Editkaro helped our channel grow exponentially. Their understanding of pacing and effects is exceptional. They truly know how to highlight the most exciting moments!"</p>
+                    <div class="client">Alex Rivera</div>
+                    <div class="position">Gaming Content Creator</div>
+                </div>
+                <div class="testimonial">
+                    <p>"We entrusted Editkaro with our product launch videos, and they delivered beyond our expectations. The quality and creativity were outstanding. The videos significantly boosted our product sales."</p>
+                    <div class="client">Michael Chen</div>
+                    <div class="position">CEO of StyleWear</div>
+                </div>
+
+                <div class="testimonial-nav">
+                    <div class="testimonial-dot active" data-index="0"></div>
+                    <div class="testimonial-dot" data-index="1"></div>
+                    <div class="testimonial-dot" data-index="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In <span>Touch</span></h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Editkaro.in</h3>
+                    <p>Creating compelling visual stories that drive engagement and growth for your brand.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@editkaro.in</p>
+                    <p>Phone: +91 98765 43210</p>
+                    <p>Address: Creative Studio, Mumbai, India</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Editkaro.in. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <div class="close-modal">&times;</div>
+            <iframe src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
